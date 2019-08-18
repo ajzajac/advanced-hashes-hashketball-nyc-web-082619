@@ -121,6 +121,11 @@ def num_points_scored(name)
     binding.pry
     team_data.each do |attribute, data|
     binding.pry
+    data.each do |stat|
+      binding.pry
+    end
+  end
+end
 
 
 
