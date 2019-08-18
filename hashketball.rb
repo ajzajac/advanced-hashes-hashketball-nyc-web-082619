@@ -122,6 +122,7 @@ def num_points_scored(player)
       if name === player
       return stat[:points]
     end
+    end
   end
 end
 
