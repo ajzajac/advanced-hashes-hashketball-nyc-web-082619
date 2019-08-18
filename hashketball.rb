@@ -164,5 +164,6 @@ numbers = []
 end
 
 def player_stats(player_name)
-  game_hash.each do |
+  game_hash.each do |team, team_data|
+    
 end  
