@@ -153,9 +153,9 @@ end
 
 def player_numbers(team_name)
 numbers = []
-  game_hash.each do |team, attributes|
-    if attributes[:team_name] == team_name
-      attributes[:players].each do |name, stats|
+  game_hash.each do |team, team_data|
+    if team_data[:team_name] == team_name
+      team_data[:players].each do |name, stats|
       numbers << stats[:number]
       end
       return numbers
