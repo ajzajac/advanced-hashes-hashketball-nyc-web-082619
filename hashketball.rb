@@ -120,16 +120,12 @@ def num_points_scored(player)
   game_hash.each do |location, team_data|
     team_data.each do |name, stat|
       if name == player
-      stat.include?
+      stat.keys.include?(name)
       return stat[:points]
     end
     end
   end
-  
 end
-
-
-
 
 
 
