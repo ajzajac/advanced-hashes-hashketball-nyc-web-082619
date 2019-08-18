@@ -162,4 +162,3 @@ jersey_array = []
     end
   end
 end
-end  
