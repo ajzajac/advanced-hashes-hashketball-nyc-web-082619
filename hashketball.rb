@@ -151,4 +151,6 @@ def team_names
   teams.push(game_hash[:away][:team_name])
 end
 
-def player_numbers
+def player_numbers(team_name)
+  
+end  
