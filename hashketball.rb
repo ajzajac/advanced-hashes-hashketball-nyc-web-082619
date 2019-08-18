@@ -124,6 +124,7 @@ def num_points_scored(name)
     data.each do |stat|
       binding.pry
     end
+    end
   end
 end
 
