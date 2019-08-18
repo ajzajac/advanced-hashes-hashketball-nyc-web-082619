@@ -153,5 +153,5 @@ end
 
 def player_numbers(team_name)
  numbers = []
- 
+ game_hash.each do 
 end  
