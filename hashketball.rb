@@ -147,4 +147,6 @@ end
 
 def team_names
   teams = []
-  game_hash[]
+  teams.push(game_hash[:home][:team_name])
+  teams.push(game_hash[:away][:team_name])
+end
