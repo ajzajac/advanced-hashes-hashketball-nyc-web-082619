@@ -123,6 +123,9 @@ def num_points_scored(name)
     binding.pry
     data.each do |stat|
       binding.pry
+      stat.include?(:points)
+      :points = points
+      return points
     end
     end
   end
