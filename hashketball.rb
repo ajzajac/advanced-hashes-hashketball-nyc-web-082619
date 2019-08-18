@@ -152,13 +152,13 @@ def team_names
 end
 
 def player_numbers(team_name)
-jersey_array = []
-  game_hash.each do |team, attributes|
-    if attributes[:team_name] == team_name
-      attributes[:players].each do |name, stats|
-      jersey_array << stats[:number]
+numbers = []
+  game_hash.each do |team, team_data|
+    if team_data[:team_name] == team_name
+      team_data[:players].each do |name, stats|
+      numbers << stats[:number]
       end
-      return jersey_array
+      numbers
     end
   end
 end
