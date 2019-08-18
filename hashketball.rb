@@ -158,7 +158,7 @@ numbers = []
       attributes[:players].each do |name, stats|
       numbers << stats[:number]
       end
-      numbers
+      return numbers
     end
   end
 end
